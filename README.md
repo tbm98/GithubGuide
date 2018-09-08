@@ -15,7 +15,7 @@ Quản Lý Dự Án Trên Github
 + Tạo merge request tới nhánh master (do admin quản lý)
 # Chi tiết:
 + Clone project từ nhánh master:
-0.) Khi nào clone project ???
+# Khi nào clone project ???
 Khi kéo một dự án mới trên github về
 1.) Truy cập github, mở dự án muốn phát triển (ví dụ: DyamonsWorld)
 2.) Chọn nhánh master (mặc định là nhánh master, nếu ko bạn phải chọn lại)
@@ -24,12 +24,12 @@ Khi kéo một dự án mới trên github về
 5.) Clone dự án: git clone link-dự-án (ví dụ: git clone https://github.com/abc/abc.git) => Enter
 6.) Đợi load xong là đã clone hoàn tất.
 + Pull project từ nhánh master
-0.) Khi nào thì pull ???
+# Khi nào thì pull ???
 Pull khi dự án đã tồn tại (đã được clone về từ trước)
 1.) Nếu dùng git, mở thư mục chứa dự án, chạy lệnh: git pull => Enter
 1.1) Nếu dùng Terminal trong Android Studio: Mở Terminal, chạy lệnh: git pull => Enter
 + Checkout (chuyển branch)
-0.) Khi nào thì checkout ???
+# Khi nào thì checkout ???
 Khi tạo một màn hình mới, một tính năng mới, ...
 1.) Truy cập github => mở project đang làm việc => chọn Issues trong menu bên trái màn hình
 2.) Click nút New issue để tạo một issue mới
@@ -52,7 +52,7 @@ Vì branch này được tạo từ nhánh master (bước 6 ở trên) nên khi
 Tiếp tục, hãy xem tiếp phần Tạo Merge Request trước khi thực hiện bước 10 bên dưới.
 10.) Finish, bây giờ bạn đã ở một nhánh khác thuộc nhánh con của master. Bạn có thể code và push code lên như bình thường.
 + Tạo Merge Request
-0.) Khi nào thì tạo merge request ???
+# Khi nào thì tạo merge request ???
 Tạo merge request khi bạn đã hoàn tất màn hình, hay tính năng thuộc issue mà bạn đã tạo ra.
 0.1.) Admin quản lý dự án con (các branch con của nhánh master) như thế nào ???
 Dựa vào các merge request được tạo từ các issue, admin có thể kiểm tra code, đưa code từ các branch con vào branch chính master.
@@ -72,7 +72,7 @@ Trong mục Assignee, chọn tên người qurn lý dự án. Hiện tại là m
 Các mục khác bỏ qua.
 4.) Click Submit merge request để gửi request đến người quản lý dự án. Done!
 + Push code
-0.) Khi nào thì push code ???
+# Khi nào thì push code ???
 Khi bạn hoàn thành công việc trong branch hiện tại hay có yêu cầu push code vào cuối ngày.
 1.) Tại Terminal, gõ lệnh: git add . => Enter (thêm mới tất cả các file đã thay đổi)
 2.) Tiếp tục, gõ lệnh: git commit -m "Chú thích cho commit" => Enter (thêm ghi chú cho các thay đổi)
